@@ -1,0 +1,44 @@
+.MuiList-root {
+    background: #0C172E;
+    color: #5D6677;
+    border-radius: 10px;
+}
+.MuiPopover-root.white .MuiList-root {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+.MuiPopover-paper {
+    border-radius: 10px;
+}
+.MuiPopover-root .listItemValue {
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #5D6677;
+}
+.MuiPopover-root .listItemValue::before {
+    content: "•";
+    font-size: 26px;
+    color: #5D6677;
+    margin-right: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+
+.MuiPopover-root .listItemValueActive {
+    font-family: DM Sans;
+    font-size: 16px;
+    color: #FFF;
+}
+.MuiPopover-root .listItemValueActive::before {
+    content: "•";
+    font-size: 26px;
+    color: #FF9900;
+    margin-right: 10px;
+    line-height: 10px;
+    vertical-align: middle;
+}
+.MuiFormControl-marginNormal {
+    margin-top: 0 !important;
+}
+
